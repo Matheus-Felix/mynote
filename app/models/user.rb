@@ -10,7 +10,4 @@ class User < ApplicationRecord
   has_many :tags, dependent: :delete_all	
 end
 
-def test
-
 	
-end
